@@ -27,13 +27,13 @@ class Balance(BaseModel):
 
 
 users = [
-    User(name="Alice", mail="alice@example.com", address=["Almazar rayon", "street Qoraqamish"]),
-    User(name="Bob", mail="bob@example.com", address=["Almazar rayon", "street Qorasaroy"]),
+    User(name="Maksim", mail="maksim_ex@gmail.com", address=["Mirabad distr.", "Nukus str, 66"]),
+    User(name="Bobur", mail="bobur668@mail.ru", address=["Almazar distr.", "Qorasaroy str"]),
 ]
 
 banks = [
-    Bank(name="Bank A", rating=4.5, opened=2000),
-    Bank(name="Bank B", rating=4.2, opened=1995),
+    Bank(name="Kapital Bank ", rating=4.5, opened=1998),
+    Bank(name="Davr Bank", rating=4.2, opened=2000),
 ]
 
 cards = [
